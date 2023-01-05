@@ -8,7 +8,7 @@ Software to control Mitsubishi Ecodan.
 This will launch a fmmel server at port 5000.
 
 ```
-docker run -d --name fmmel --rm --publish 5000:5000 ghcr.io/fmonera/fmmel:latest
+docker run -d --name fmmel --rm --publish 5000:5000 fmonera/fmmel:latest
 ```
 
 ### Get the token with your melcloud credentials
